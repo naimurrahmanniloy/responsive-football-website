@@ -1,0 +1,88 @@
+/* external font useage */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    top: 0;
+}
+
+/* header part styles started  */
+header{
+    background-color: rgba(30, 30, 177, 0.849);
+    height: 591px;  
+}
+nav , .header_main_content{                            /* header Main content style added here */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 27px;
+}
+.menu{
+    margin-right:190px ;
+}
+.menu ul li{
+    list-style: none;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    margin-left:36px ;
+    
+}
+.menu ul li a:hover{
+    border-top: 3px solid white;
+   
+    
+}
+
+.login_btn{
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #E02C6D;
+   padding: 7px 26px; 
+   color: #ffffff;  
+ 
+}
+.login_btn:hover{
+    background-color: skyblue;    
+    transition: all 0.3s ease-in-out 0.1s;
+    font-size: 17px;
+}
+
+.fa-sign-in-alt{
+    margin-right: 12px;
+}
+
+/* Header section content style start  */
+.header_main_content{
+    margin-left: 80px;
+}
+.header_info h1{
+    color: #ffffff;
+    font-size: 64px;
+}
+.header_info a {
+    text-decoration: none;
+    background: #E02C6D;
+    padding: 7px 25px;
+    color: #ffffff;
+}
+.header_info a:hover{
+    background-color: skyblue;    
+    transition: all 0.3s ease-in-out 0.1s;
+    font-size: 17px;
+}
+
+
+.header_info .fa-arrow-right{
+    margin-left: 8px;
+}
+.header_banner img{
+    height: 442px;
+    width: 556px;   
+    
+}
