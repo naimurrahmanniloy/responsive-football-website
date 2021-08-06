@@ -6,6 +6,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin:0;
     top: 0;
+    overflow-x: hidden;
 }
 
 /* header part styles started  */
@@ -152,4 +153,95 @@ nav , .header_main_content{                            /* header Main content st
 }
 .shop_banner img{
     width: 800px;
+}
+
+/* news section started  */
+.news_section{
+    margin-top: 50px;
+}
+.news_heading{
+    text-align: center;
+    font-size: 30px;
+}
+
+.news_container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 15px;
+}
+.newses{
+    width: 90%;
+    padding: 30px;
+}
+.news_banner img{
+    width: 300px;
+    border-radius: 15px;
+}
+.news_info{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-futbol{
+    margin-right: 5px;
+}
+
+/* match section started  */
+.match_section{
+    margin-top: 50px;
+}
+.match{
+    display: flex;
+    
+}
+.match_content{
+    width: 50%;
+    margin-left:100px ;
+}
+.match_content h1{
+    font-size: 50px;
+}
+.match_content p{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+.match_content a{
+    text-decoration: none;
+    background: #E02C6D;
+    padding: 7px 25px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.match_content a:hover{
+    background-color: rgb(166, 184, 63);    
+    transition: all 0.3s ease-in-out 0.1s;
+    font-size: 17px;
+}
+.match_banner img{
+   width: 560px;
+  
+}
+
+/* Footer part started  */
+footer{
+    margin-top: 150px;
+}
+.footer_logo{
+    text-align: center;
+}
+.footer_logo img{
+    width: 480px;    
+}
+.social_icon{
+    text-align: center;
+} 
+.social{
+    padding: 10px;    
+    background-color: gray;
+    border-radius: 50%;
+    margin: 10px;
+    transition: all 0.3s;
+}
+.social:hover{
+    background-color: burlywood;
+    cursor: pointer;
 }
