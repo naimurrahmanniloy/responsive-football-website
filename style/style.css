@@ -249,9 +249,9 @@ footer{
 
 @media only screen and (max-width: 668px) {
 
+
     /* header part media quary  */
-    header{
-        width: 100%;
+    header{        
         height: 800px;
     }
     nav{
@@ -260,7 +260,7 @@ footer{
 
     .header_main_content{
         flex-direction: column;
-        margin-left: 0;
+        margin-left: 2px;
     }
     .header_info h1{
         font-size: 30px;
@@ -272,9 +272,10 @@ footer{
 /* player part starter  */
 .container{
     grid-template-columns: repeat(1, 1fr);
-    width: 330px;
+    width: 300px;
     grid-row-gap: 30px;
-    margin-left: 130px;
+    margin-left: 20px;
+    
     
 }
 .player img{
@@ -307,11 +308,26 @@ footer{
     width: 100%;
     margin-left:0 ;
 }
+.match_content p{
+    font-size: 14px;
+    color: #6C6C6C;
+}
  .match_banner img{
     width: 400px;
     margin-top: 30px;
    
  }
+
+ /* footer started  */
+ .footer_logo{
+    text-align: center;
+}
+.footer_logo img{
+    width: 300px;    
+}
+.social_icon{
+    text-align: center;
+} 
  
 }
 
