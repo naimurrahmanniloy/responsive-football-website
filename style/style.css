@@ -44,11 +44,12 @@ nav , .header_main_content{                            /* header Main content st
     font-size: 16px;
     background-color: #E02C6D;
    padding: 7px 26px; 
-   color: #ffffff;  
+   color: #ffffff; 
+   border-radius: 5px; 
  
 }
 .login_btn:hover{
-    background-color: skyblue;    
+    background-color: rgb(166, 184, 63);    
     transition: all 0.3s ease-in-out 0.1s;
     font-size: 17px;
 }
@@ -70,9 +71,10 @@ nav , .header_main_content{                            /* header Main content st
     background: #E02C6D;
     padding: 7px 25px;
     color: #ffffff;
+    border-radius: 5px;
 }
 .header_info a:hover{
-    background-color: skyblue;    
+    background-color: rgb(166, 184, 63);    
     transition: all 0.3s ease-in-out 0.1s;
     font-size: 17px;
 }
@@ -85,4 +87,69 @@ nav , .header_main_content{                            /* header Main content st
     height: 442px;
     width: 556px;   
     
+}
+
+/* Player part started styling  */
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);    
+    width: 1050px;
+    margin-left: 250px;
+    margin-top: 50px;
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+    
+}
+.players{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+.player img{
+    width: 310px;
+    height: 255px;
+}
+
+.player_info p{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+/* Shop now section started  */
+.shop_section{
+    margin-top: 100px;
+    background-color: rgba(8, 35, 110, 0.685);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}.shop_content{
+    color: #ffffff;
+}
+.shop_content h1{
+    font-size: 50px;
+}
+.shop_content h3{
+    font-size: 25px;
+}
+.shop_content a{
+    text-decoration: none;
+    color: #ffffff;
+    background: #E02C6D;
+    padding: 9px 24px;
+    border-radius: 10px;
+    
+}
+.shop_content a:hover{
+    background-color: rgb(166, 184, 63);    
+    transition: all 0.3s ease-in-out 0.1s;
+    font-size: 17px;
+}
+.fa-shopping-cart{
+    margin-left: 10px;
+}
+.shop_banner img{
+    width: 800px;
 }
